@@ -1,0 +1,24 @@
+group 'com.krzysztofwilk.google.maps.elevation'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.google.maps:google-maps-services:0.1.17'
+    compile 'org.projectlombok:lombok:1.16.14'
+    compile 'org.slf4j:slf4j-api:1.7.23'
+    compile 'org.slf4j:slf4j-simple:1.7.23'
+}
+
+mainClassName = "com.krzysztofwilk.google.maps.demo.Elevation"
+
+tasks.withType(JavaExec) {
+    systemProperties System.properties
+}
