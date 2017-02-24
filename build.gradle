@@ -1,4 +1,4 @@
-group 'com.krzysztofwilk.google.maps.elevation'
+group 'com.krzysztofwilk.google.maps.demo'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
