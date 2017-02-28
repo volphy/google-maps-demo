@@ -1,3 +1,7 @@
+plugins {
+    id 'com.github.ben-manes.versions' version '0.14.0'
+}
+
 group 'com.krzysztofwilk.google.maps.demo'
 version '1.0-SNAPSHOT'
 
@@ -13,8 +17,8 @@ repositories {
 dependencies {
     compile 'com.google.maps:google-maps-services:0.1.17'
     compile 'org.projectlombok:lombok:1.16.14'
-    compile 'org.slf4j:slf4j-api:1.7.23'
-    compile 'org.slf4j:slf4j-simple:1.7.23'
+    compile 'org.slf4j:slf4j-api:1.7.24'
+    compile 'org.slf4j:slf4j-simple:1.7.24'
 }
 
 mainClassName = "com.krzysztofwilk.google.maps.demo.Elevation"
